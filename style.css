@@ -1,0 +1,147 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  max-width: 345px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card-content, .card-actions {
+  padding: 16px;
+}
+
+.card-content > h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.card-content > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  color: rgb(25, 118, 210);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 4px 5px;
+  border-radius: 4px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn:hover {
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+.avatar {
+  background: rgb(244, 67, 54);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 16px;
+}
+
+.parents {
+  background-color: #e7ebf0;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+}
+
+.child {
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 345px;
+}
+
+.card-description {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.card-content-text {
+  padding: 16px;
+}
+
+.card-button {
+  background: rgb(244, 67, 54);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 16px;
+  border: 0;
+}
+
+footer {
+  display: flex;
+  padding: 0 16px 16px;
+}
+
+.btn-O {
+  display: flex;
+}
+
+.card-button:hover {
+  background-color: rgb(219, 21, 14);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
